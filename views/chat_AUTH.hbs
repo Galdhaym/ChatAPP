@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Node.js ChatAPP</title>
+</head>
+<body>
+    <div class="app">
+        <div class="newChat">
+            <h1>Create new chat:</h1>
+            <p>Input chat name: </p>
+            <input id="chatNameField" type="text" name = "chatname">
+            <button id="createChatBut">Create chat</button>
+        </div>
+    </div>
+    <script src="../jquery-3.5.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script type="module" src="../client.js"></script>
+</body>
+</html>
